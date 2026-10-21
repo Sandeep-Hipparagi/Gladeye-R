@@ -1,0 +1,22 @@
+{
+  "name": "gladeye-r",
+  "version": "1.0.0",
+  "description": "BluePatterns AI - Gladeye-R Interactive 3D WebGL & Three.js Experience",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "threejs",
+    "webgl",
+    "nextjs",
+    "interactive-3d",
+    "bluepatterns-ai",
+    "gladeye-r",
+    "creative-agency",
+    "creative-development"
+  ],
+  "author": "BluePatterns AI",
+  "license": "MIT"
+}

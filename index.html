@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="/_next/static/css/70ccb8e7fa150b80.css" data-precedence="next"/>
+        <link rel="stylesheet" href="/_next/static/css/2347d98ee8e65578.css" data-precedence="next"/>
+        <link rel="preload" href="/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js" as="script" fetchPriority="low"/>
+        <script src="/_next/static/chunks/fd9d1056-76aadce26f555392.js" async=""></script>
+        <script src="/_next/static/chunks/123-3b7f3df3cc5866d7.js" async=""></script>
+        <script src="/_next/static/chunks/main-app-439522ead9e0861d.js" async=""></script>
+        <link rel="preload" as="script" href="https://www.googletagmanager.com/gtag/js?id=G-TM4XDY46KN"/>
+        <title>Digital Product &amp; Brand Experience Agency - BluePatterns AI</title>
+        <meta name="description" content="BluePatterns AI is a creative digital agency in New Zealand - working for the world. We blend storytelling with technology to craft beautiful brands, websites, experiences and products. "/>
+        <meta name="robots" content="index, follow"/>
+        <link rel="canonical" href="https://bluepatterns.ai/"/>
+        <meta property="og:title" content="Digital Product &amp; Brand Experience Agency - BluePatterns AI"/>
+        <meta property="og:description" content="BluePatterns AI is a creative digital agency in New Zealand - working for the world. We blend storytelling with technology to craft beautiful brands, websites, experiences and products. "/>
+        <meta property="og:image" content="https://a-us.storyblok.com/f/1014779/1200x630/0e40ae66b8/bluepatterns.png/m/1200x627"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="Digital Product &amp; Brand Experience Agency - BluePatterns AI"/>
+        <meta name="twitter:description" content="BluePatterns AI is a creative digital agency in New Zealand - working for the world. We blend storytelling with technology to craft beautiful brands, websites, experiences and products. "/>
+        <meta name="twitter:image" content="https://a-us.storyblok.com/f/1014779/1200x630/0e40ae66b8/bluepatterns.png/m/1200x627"/>
+        <link rel="icon" href="/favicon.ico"/>
+        <script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule=""></script>
+        <style>
+            .AudioControl_audioButton,
+            .AudioControl_audioButton__Gj5AZ {
+                position: fixed !important;
+                bottom: 120px;
+                left: 50%;
+                background: hsla(0,0%,100%,.1);
+                border: 1px solid hsla(0,0%,100%,.2);
+                border-radius: 50%;
+                width: 44px;
+                height: 44px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: all .3s ease;
+                -webkit-backdrop-filter: blur(10px);
+                backdrop-filter: blur(10px);
+                z-index: 9999;
+                transform: translateX(-50%);
+                pointer-events: all;
+                outline: none;
+                box-sizing: border-box;
+                padding: 0;
+            }
+            .AudioControl_audioButton:hover,
+            .AudioControl_audioButton__Gj5AZ:hover {
+                background: hsla(0,0%,100%,.2);
+                border-color: hsla(0,0%,100%,.4);
+                transform: translateX(-50%) scale(1.1);
+            }
+            .AudioControl_audioButton:active,
+            .AudioControl_audioButton__Gj5AZ:active {
+                transform: translateX(-50%) scale(.95);
+            }
+            @media (max-width: 768px) {
+                .AudioControl_audioButton,
+                .AudioControl_audioButton__Gj5AZ {
+                    bottom: 100px;
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+            .audio-equalizer-svg {
+                display: block;
+                width: 22px;
+                height: 15px;
+                overflow: visible;
+            }
+            .audio-bar {
+                transform-box: fill-box;
+                transform-origin: bottom center;
+                transition: transform 0.3s ease;
+            }
+            @keyframes eqBar1 { 0%, 100% { transform: scaleY(0.3); } 50% { transform: scaleY(1.3); } }
+            @keyframes eqBar2 { 0%, 100% { transform: scaleY(0.7); } 50% { transform: scaleY(0.2); } }
+            @keyframes eqBar3 { 0%, 100% { transform: scaleY(0.4); } 50% { transform: scaleY(1.5); } }
+            @keyframes eqBar4 { 0%, 100% { transform: scaleY(1.0); } 50% { transform: scaleY(0.3); } }
+            @keyframes eqBar5 { 0%, 100% { transform: scaleY(0.5); } 50% { transform: scaleY(1.2); } }
+
+            .AudioControl_audioButton.is-playing .audio-bar:nth-child(1),
+            .AudioControl_audioButton__Gj5AZ.is-playing .audio-bar:nth-child(1) { animation: eqBar1 0.75s ease-in-out infinite; }
+            .AudioControl_audioButton.is-playing .audio-bar:nth-child(2),
+            .AudioControl_audioButton__Gj5AZ.is-playing .audio-bar:nth-child(2) { animation: eqBar2 0.55s ease-in-out infinite 0.1s; }
+            .AudioControl_audioButton.is-playing .audio-bar:nth-child(3),
+            .AudioControl_audioButton__Gj5AZ.is-playing .audio-bar:nth-child(3) { animation: eqBar3 0.85s ease-in-out infinite 0.2s; }
+            .AudioControl_audioButton.is-playing .audio-bar:nth-child(4),
+            .AudioControl_audioButton__Gj5AZ.is-playing .audio-bar:nth-child(4) { animation: eqBar4 0.65s ease-in-out infinite 0.15s; }
+            .AudioControl_audioButton.is-playing .audio-bar:nth-child(5),
+            .AudioControl_audioButton__Gj5AZ.is-playing .audio-bar:nth-child(5) { animation: eqBar5 0.70s ease-in-out infinite 0.05s; }
+
+            .AudioControl_audioButton.is-paused .audio-bar:nth-child(1),
+            .AudioControl_audioButton__Gj5AZ.is-paused .audio-bar:nth-child(1) { transform: scaleY(0.3); animation: none; }
+            .AudioControl_audioButton.is-paused .audio-bar:nth-child(2),
+            .AudioControl_audioButton__Gj5AZ.is-paused .audio-bar:nth-child(2) { transform: scaleY(0.6); animation: none; }
+            .AudioControl_audioButton.is-paused .audio-bar:nth-child(3),
+            .AudioControl_audioButton__Gj5AZ.is-paused .audio-bar:nth-child(3) { transform: scaleY(0.3); animation: none; }
+            .AudioControl_audioButton.is-paused .audio-bar:nth-child(4),
+            .AudioControl_audioButton__Gj5AZ.is-paused .audio-bar:nth-child(4) { transform: scaleY(1.0); animation: none; }
+            .AudioControl_audioButton.is-paused .audio-bar:nth-child(5),
+            .AudioControl_audioButton__Gj5AZ.is-paused .audio-bar:nth-child(5) { transform: scaleY(0.3); animation: none; }
+
+            button.AudioControl_audioButton__Gj5AZ:not(#gladeye-audio-btn) {
+                display: none !important;
+            }
+        
+            
+        
+            /* Menu button exact screen centering */
+            .Header_buttonContainer__rN6i5 {
+                position: absolute !important;
+                left: 50% !important;
+                transform: translateX(-50%) !important;
+                pointer-events: auto !important;
+                z-index: 30 !important;
+            }
+
+            /* Royal Navy Blue & Light Sky Blue Theme Overrides */
+            [data-theme="green"],
+            [data-theme="mint"],
+            .theme-green {
+                --theme-primary: 10 28 62 !important; /* Royal Navy Blue #0A1C3E */
+                --theme-secondary: 255 255 255 !important;
+                --theme-tertiary: 126 200 227 !important; /* Light Sky Blue #7EC8E3 */
+            }
+        
+            body:has(nav) #gladeye-audio-btn,
+            body:has([class*="Menu_menu"]) #gladeye-audio-btn {
+                opacity: 0 !important;
+                pointer-events: none !important;
+            }
+        
+            /* Header Logo sizing & alignment fix */
+            [aria-label="Home"] {
+                display: inline-flex !important;
+                align-items: center !important;
+            }
+            [aria-label="Home"] svg {
+                height: 48px !important;
+                max-height: 48px !important;
+                width: auto !important;
+                display: block !important;
+                transform: translateY(3px) !important;
+            }
+            @media (max-width: 768px) {
+                [aria-label="Home"] svg {
+                    height: 40px !important;
+                    max-height: 40px !important;
+                    transform: translateY(2px) !important;
+                }
+            }
+        </style>
+    </head>
+    <body><noscript id="GTM_NO_SCRIPT"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THRNDG7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div style="--theme-primary:16 16 16;--theme-secondary:255 255 255;--theme-tertiary:255 255 255;--theme-header:255 255 255;--theme-header-secondary:125 125 125;--theme-header-button-text-default:255 255 255;--theme-header-button-text-roll-over:0 0 0;--theme-header-button-bg-default:125 125 125;--theme-header-button-bg-roll-over:255 255 255" class=" pointer-events-none fixed inset-x-0 z-20 z-Header text-theme-header transition-colors duration-theme"><div class="flex h-Header-height items-center justify-between px-sms"><div class="w-[125px] sm:w-[155px]"><a class="pointer-events-auto" aria-label="Home" href="/"><svg viewBox="-30 -35 1070 425" class="h-auto w-full" xmlns="http://www.w3.org/2000/svg"><g fill="currentColor"><text x="0" y="125" font-family="Soehne, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="135" font-weight="800" letter-spacing="-0.02em">BLUE</text><text x="0" y="265" font-family="Soehne, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="135" font-weight="800" letter-spacing="-0.02em">PATTERNS</text><text x="0" y="360" font-family="Soehne, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="52" font-weight="400" letter-spacing="-0.01em" opacity="0.9">Intelligence for Everyone</text></g><rect x="740" y="20" width="260" height="260" rx="55" fill="#FFFFFF" stroke="#0A1C3E" stroke-width="6"></rect><text x="870" y="205" text-anchor="middle" font-family="Soehne, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="170" font-weight="900" fill="#0A1C3E" letter-spacing="-0.03em">AI</text></svg></a></div><div class="Header_buttonContainer__rN6i5 absolute left-1/2 -translate-x-1/2 flex justify-center pointer-events-auto"><button class="pointer-events-auto Header_button__qn2Wj Button_main__NewW7 Button_default__CcbQU"><span class="Button_inner__d7ZPg">Menu</span></button></div><div class="hidden w-[125px] sm:w-[155px] justify-end md:flex"><a class="pointer-events-auto" aria-label="About" href="/about"></a></div></div></div><main style="--theme-primary:16 16 16;--theme-secondary:255 255 255;--theme-tertiary:255 255 255" class="bg-black"><div style="opacity:1"><div class="relative z-main bg-theme-primary transition-bg duration-theme"><script type="application/ld+json">
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Organization",
+                            "name": "BluePatterns AI",
+                            "url": "https://bluepatterns.ai/",
+                            "logo": "https://bluepatterns.ai/seo_logo.png",
+                            "sameAs": [
+                                "https://www.instagram.com/bluepatternsai/",
+                                "https://linkedin.com/company/bluepatterns-ai",
+                                "https://twitter.com/bluepatternsai"
+                            ]
+                        }</script><section data-theme="dark" class="text-theme-secondary transition-colors duration-theme"><div class="FlowerValley_wrapper__2YGx1"><div class="fixed inset-0 z-50 flex items-center justify-center Loader_loader__iUG7H" style="opacity:1"><div class="Loader_spinnerWrapper__n5mpi"><div class="Loader_spinner__lGyv4"><div class="Loader_circleWrapper__Z4G9T" style="transform:rotate(0deg)"><div class="Loader_circle__bdxRu"></div></div><div class="Loader_circleWrapper__Z4G9T" style="transform:rotate(72deg)"><div class="Loader_circle__bdxRu"></div></div><div class="Loader_circleWrapper__Z4G9T" style="transform:rotate(144deg)"><div class="Loader_circle__bdxRu"></div></div><div class="Loader_circleWrapper__Z4G9T" style="transform:rotate(216deg)"><div class="Loader_circle__bdxRu"></div></div><div class="Loader_circleWrapper__Z4G9T" style="transform:rotate(288deg)"><div class="Loader_circle__bdxRu"></div></div></div></div></div><div class="js-canvas-container FlowerValley_canvas___rS8E"></div><div class="FlowerValley_textContainer__PZdtA"></div><div></div></div></section></div><div class="z-Main min-h-[100vh] w-full desktop:h-auto desktop:aspect-[1728/600]"></div><footer class="lg:fixed lg:flex lg:items-center inset-x-0 bottom-0 z-Footer bg-yellow lg:justify-center min-h-[100vh] w-full desktop:h-auto desktop:aspect-[1728/600]" data-theme="yellow" data-scroll-lock-fill-gap="true"><div class="absolute inset-x-0 bottom-full h-[20vh]  bg-yellow"></div><div style="transform:none" class="ui-grid w-full max-w-site gap-y-12 pb-32 pt-32 lg:gap-y-0"><div class="col-span-full lg:col-span-11 lg:col-start-3 xl:col-span-8 xl:col-start-3"><div class=""><h2 class="t-h2 mb-8 xl:mb-12" style="opacity:0;transform:translateY(0.5em) translateZ(0)"><span>Subscribe to<br/>our newsletter</span></h2><div style="opacity:0;transform:translateY(0.5em) translateZ(0)"><div style="opacity:0;transform:translateY(0.5em) translateZ(0)"><form class="ContactSignUp_form__wMRUI " action="#"><div class="ContactSignUp_fieldWrapper__9wUtO"><input type="email" required="" placeholder="Your Email" class="ContactSignUp_input__Jz9AT" name="email" value=""/><button class="ContactSignUp_icon__984rC" type="submit"><svg viewBox="0 0 11 10.55" class="h-s-4 w-s-4 fill-current"><path d="M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z"></path></svg></button></div></form></div></div></div></div><div class="t-footer-meta col-span-full lg:col-start-16 xl:col-start-16"><div class="mb-6"><div class="undefined space-y-s-1 footerLarge:space-y-0"><h3 class="font-light" style="opacity:0;transform:translateY(0.5em) translateZ(0)">Request a proposal</h3><ul class="space-y-s-1 font-medium footerLarge:flex footerLarge:items-center footerLarge:gap-s-2 footerLarge:space-y-0"><li class="footerLarge:flex footerLarge:items-center footerLarge:gap-s-2" style="opacity:0;transform:translateY(0.5em) translateZ(0)"><a class="MotionLink_main__kgq4W" href="mailto:sandeep@bluepatterns.co.in"><div class="MotionLink_inner__hsBoJ"><span>sandeep@bluepatterns.co.in</span><span>sandeep@bluepatterns.co.in</span></div></a></li></ul></div></div><div class="mb-6"><div class="undefined space-y-s-1 footerLarge:space-y-0"><h3 class="font-light" style="opacity:0;transform:translateY(0.5em) translateZ(0)">Follow us</h3><ul class="space-y-s-1 font-medium footerLarge:flex footerLarge:items-center footerLarge:gap-s-2 footerLarge:space-y-0"><li class="footerLarge:flex footerLarge:items-center footerLarge:gap-s-2" style="opacity:0;transform:translateY(0.5em) translateZ(0)"><a class="MotionLink_main__kgq4W" target="_blank" rel="nofollow noopener" href="https://www.instagram.com/bluepatternsai/"><div class="MotionLink_inner__hsBoJ"><span>Instagram</span><span>Instagram</span></div></a><span class="hidden font-light footerLarge:block">|</span></li><li class="footerLarge:flex footerLarge:items-center footerLarge:gap-s-2" style="opacity:0;transform:translateY(0.5em) translateZ(0)"><a class="MotionLink_main__kgq4W" target="_blank" rel="nofollow noopener" href="https://linkedin.com/company/bluepatterns-ai"><div class="MotionLink_inner__hsBoJ"><span>LinkedIn</span><span>LinkedIn</span></div></a><span class="hidden font-light footerLarge:block">|</span></li><li class="footerLarge:flex footerLarge:items-center footerLarge:gap-s-2" style="opacity:0;transform:translateY(0.5em) translateZ(0)"><a class="MotionLink_main__kgq4W" target="_blank" rel="nofollow noopener" href="https://twitter.com/bluepatternsai"><div class="MotionLink_inner__hsBoJ"><span>X</span><span>X</span></div></a></li></ul></div></div><div class="mb-6"><div class="undefined space-y-s-1 footerLarge:space-y-0"><h3 class="font-light" style="opacity:0;transform:translateY(0.5em) translateZ(0)">Join the team</h3><ul class="space-y-s-1 font-medium footerLarge:flex footerLarge:items-center footerLarge:gap-s-2 footerLarge:space-y-0"><li class="footerLarge:flex footerLarge:items-center footerLarge:gap-s-2" style="opacity:0;transform:translateY(0.5em) translateZ(0)"><a class="MotionLink_main__kgq4W" target="_self" href="mailto:careers@bluepatterns.co.in"><div class="MotionLink_inner__hsBoJ"><span>careers@bluepatterns.co.in</span><span>careers@bluepatterns.co.in</span></div></a></li></ul></div></div><div class="relative mb-6"><div class="mr-3 inline-block space-y-s-1 footerLarge:space-y-0"><h3 class="font-light" style="opacity:0;transform:translateY(0.5em) translateZ(0)">Find us</h3><ul class="space-y-s-1 font-medium footerLarge:flex footerLarge:items-center footerLarge:gap-s-2 footerLarge:space-y-0"><li class="footerLarge:flex footerLarge:items-center footerLarge:gap-s-2" style="opacity:0;transform:translateY(0.5em) translateZ(0)"><a class="MotionLink_main__kgq4W" href="https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9882597,77.4571623,70306m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!8m2!3d12.9628957!4d77.57754!16zL20vMDljMTc?entry=ttu&g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D"><div class="MotionLink_inner__hsBoJ"><span>Bengaluru, Karnataka, India</span><span>Bengaluru, Karnataka, India</span></div><span class="ml-3 w-[0.5em] self-center"><svg viewBox="0 0 17.57 17.57" class="fill-current"><path d="M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z"></path></svg></span></a></li></ul></div></div><div class="mb-6"><p style="opacity:0;transform:translateY(0.5em) translateZ(0)">© BluePatterns AI <!-- -->2025</p></div></div></div></footer></div></main>
+        <script src="/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js" async=""></script>
+        <script>
+            (self.__next_f = self.__next_f || []).push([0])
+        </script>
+        <script>
+            self.__next_f.push([1, "1:HL[\"/_next/static/css/70ccb8e7fa150b80.css\",{\"as\":\"style\"}]\n0:\"$L2\"\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "3:HL[\"/_next/static/css/2347d98ee8e65578.css\",{\"as\":\"style\"}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "4:I{\"id\":7948,\"chunks\":[\"272:static/chunks/webpack-a76c04a7ba9aa4ef.js\",\"971:static/chunks/fd9d1056-76aadce26f555392.js\",\"123:static/chunks/123-3b7f3df3cc5866d7.js\"],\"name\":\"default\",\"async\":false}\n6:I{\"id\":6628,\"chunks\":[\"272:static/chunks/webpack-a76c04a7ba9aa4ef.js\",\"971:static/chunks/fd9d1056-76aadce26f555392.js\",\"123:static/chunks/123-3b7f3df3cc5866d7.js\"],\"name\":\"\",\"async\":false}\n7:I{\"id\":7275,\"chunks\":[\"450:static/chunks/450-96e2a31dde902aa5.js\",\"567:static/chunks/567-6466d5cc81546a43.js\",\"340:static"])
+        </script>
+        <script>
+            self.__next_f.push([1, "/chunks/340-4c85e05b44fc7370.js\",\"15:static/chunks/15-91b52fecfdd8e21a.js\",\"780:static/chunks/780-35f43a00462f78e8.js\",\"419:static/chunks/419-c9aec889e32d9e7b.js\",\"131:static/chunks/131-8efcfd03f067c029.js\",\"185:static/chunks/app/layout-3ab4cf37f3ac757c.js\"],\"name\":\"\",\"async\":false}\n8:I{\"id\":4666,\"chunks\":[\"450:static/chunks/450-96e2a31dde902aa5.js\",\"567:static/chunks/567-6466d5cc81546a43.js\",\"340:static/chunks/340-4c85e05b44fc7370.js\",\"15:static/chunks/15-91b52fecfdd8e21a.js\",\"780:static/chunks/780-35f43a0"])
+        </script>
+        <script>
+            self.__next_f.push([1, "0462f78e8.js\",\"419:static/chunks/419-c9aec889e32d9e7b.js\",\"131:static/chunks/131-8efcfd03f067c029.js\",\"185:static/chunks/app/layout-3ab4cf37f3ac757c.js\"],\"name\":\"AppSettingsProvider\",\"async\":false}\n9:I{\"id\":3535,\"chunks\":[\"450:static/chunks/450-96e2a31dde902aa5.js\",\"567:static/chunks/567-6466d5cc81546a43.js\",\"340:static/chunks/340-4c85e05b44fc7370.js\",\"15:static/chunks/15-91b52fecfdd8e21a.js\",\"780:static/chunks/780-35f43a00462f78e8.js\",\"419:static/chunks/419-c9aec889e32d9e7b.js\",\"131:static/chunks/131-8efcf"])
+        </script>
+        <script>
+            self.__next_f.push([1, "d03f067c029.js\",\"185:static/chunks/app/layout-3ab4cf37f3ac757c.js\"],\"name\":\"DocumentValuesProvider\",\"async\":false}\na:I{\"id\":7472,\"chunks\":[\"450:static/chunks/450-96e2a31dde902aa5.js\",\"567:static/chunks/567-6466d5cc81546a43.js\",\"340:static/chunks/340-4c85e05b44fc7370.js\",\"15:static/chunks/15-91b52fecfdd8e21a.js\",\"780:static/chunks/780-35f43a00462f78e8.js\",\"419:static/chunks/419-c9aec889e32d9e7b.js\",\"131:static/chunks/131-8efcfd03f067c029.js\",\"185:static/chunks/app/layout-3ab4cf37f3ac757c.js\"],\"name\":\"ThemePr"])
+        </script>
+        <script>
+            self.__next_f.push([1, "ovider\",\"async\":false}\nb:I{\"id\":3015,\"chunks\":[\"450:static/chunks/450-96e2a31dde902aa5.js\",\"567:static/chunks/567-6466d5cc81546a43.js\",\"340:static/chunks/340-4c85e05b44fc7370.js\",\"15:static/chunks/15-91b52fecfdd8e21a.js\",\"780:static/chunks/780-35f43a00462f78e8.js\",\"419:static/chunks/419-c9aec889e32d9e7b.js\",\"131:static/chunks/131-8efcfd03f067c029.js\",\"185:static/chunks/app/layout-3ab4cf37f3ac757c.js\"],\"name\":\"\",\"async\":false}\nd:I{\"id\":6057,\"chunks\":[\"450:static/chunks/450-96e2a31dde902aa5.js\",\"567:static/ch"])
+        </script>
+        <script>
+            self.__next_f.push([1, "unks/567-6466d5cc81546a43.js\",\"340:static/chunks/340-4c85e05b44fc7370.js\",\"15:static/chunks/15-91b52fecfdd8e21a.js\",\"780:static/chunks/780-35f43a00462f78e8.js\",\"419:static/chunks/419-c9aec889e32d9e7b.js\",\"131:static/chunks/131-8efcfd03f067c029.js\",\"185:static/chunks/app/layout-3ab4cf37f3ac757c.js\"],\"name\":\"\",\"async\":false}\ne:I{\"id\":7767,\"chunks\":[\"272:static/chunks/webpack-a76c04a7ba9aa4ef.js\",\"971:static/chunks/fd9d1056-76aadce26f555392.js\",\"123:static/chunks/123-3b7f3df3cc5866d7.js\"],\"name\":\"default\",\"asy"])
+        </script>
+        <script>
+            self.__next_f.push([1, "nc\":false}\nf:I{\"id\":7920,\"chunks\":[\"272:static/chunks/webpack-a76c04a7ba9aa4ef.js\",\"971:static/chunks/fd9d1056-76aadce26f555392.js\",\"123:static/chunks/123-3b7f3df3cc5866d7.js\"],\"name\":\"default\",\"async\":false}\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "2:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/70ccb8e7fa150b80.css\",\"precedence\":\"next\"}]],[\"$\",\"$L4\",null,{\"buildId\":\"v-9EHlD6dFWVtlh9SSaSS\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/\",\"initialTree\":[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],\"initialHead\":[false,\"$L5\"],\"globalErrorComponent\":\"$6\",\"children\":[null,[\"$\",\"$L7\",null,{\"children\":[\"$\",\"$L8\",null,{\"children\":[\"$\",\"$L9\",null,{\"children\":[\"$\",\"$La\",null,{\"children\":[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[[\"$\",\"$Lb\",null,{\"id\":\"GTM_SCRIPT\",\"src\":\"https://www.googletagmanager.com/gtag/js?id=G-TM4XDY46KN\"}],[\"$\",\"$Lb\",null,{\"id\":\"GA_CONFIG_SCRIPT\",\"dangerouslySetInnerHTML\":{\"__html\":\"window.dataLayer = window.dataLayer || [];\\n  function gtag(){dataLayer.push(arguments);}\\n  gtag('js', new Date());\\n  gtag('config', 'G-TM4XDY46KN');\"}}],[\"$\",\"$Lb\",null,{\"id\":\"GTM_CONFIG_SCRIPT\",\"dangerouslySetInnerHTML\":{\"__html\":\"(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\\n  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\\n  j=d.createElement(s),dl=l!='dataLayer'?'\u0026l='+l:'';j.async=true;j.src=\\n  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\\n  })(window,document,'script','dataLayer','GTM-THRNDG7');\"}}],[\"$\",\"body\",null,{\"children\":[[\"$\",\"noscript\",null,{\"id\":\"GTM_NO_SCRIPT\",\"dangerouslySetInnerHTML\":{\"__html\":\"\u003ciframe src=\\\"https://www.googletagmanager.com/ns.html?id=GTM-THRNDG7\\\" height=\\\"0\\\" width=\\\"0\\\" style=\\\"display:none;visibility:hidden\\\"\u003e\u003c/iframe\u003e\"}}],null,\"$Lc\",[\"$\",\"$Ld\",null,{\"main\":[\"$\",\"$Le\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"template\":[\"$\",\"$Lf\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$L10\",\"notFoundStyles\":[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/0b3a3a603128fa66.css\",\"precedence\":\"$undefined\"}]],\"childProp\":{\"current\":[\"$L11\",\"$L12\",null],\"segment\":\"__PAGE__\"},\"styles\":[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/2347d98ee8e65578.css\",\"precedence\":\"next\"}]]}],\"footer\":\"$L13\"}]]}]]}]}]}]}]}],null]}]]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "14:I{\"id\":5299,\"chunks\":[\"450:static/chunks/450-96e2a31dde902aa5.js\",\"567:static/chunks/567-6466d5cc81546a43.js\",\"340:static/chunks/340-4c85e05b44fc7370.js\",\"15:static/chunks/15-91b52fecfdd8e21a.js\",\"780:static/chunks/780-35f43a00462f78e8.js\",\"419:static/chunks/419-c9aec889e32d9e7b.js\",\"131:static/chunks/131-8efcfd03f067c029.js\",\"185:static/chunks/app/layout-3ab4cf37f3ac757c.js\"],\"name\":\"\",\"async\":false}\n15:I{\"id\":416,\"chunks\":[\"21:static/chunks/4b5b508e-6dceef0b9f02cb18.js\",\"450:static/chunks/450-96e2a31dd"])
+        </script>
+        <script>
+            self.__next_f.push([1, "e902aa5.js\",\"8:static/chunks/8-5234b317a5794281.js\",\"785:static/chunks/785-3ec288b614fa287f.js\",\"160:static/chunks/app/not-found-9264994d34f7485d.js\"],\"name\":\"\",\"async\":false}\n16:I{\"id\":9858,\"chunks\":[\"450:static/chunks/450-96e2a31dde902aa5.js\",\"567:static/chunks/567-6466d5cc81546a43.js\",\"340:static/chunks/340-4c85e05b44fc7370.js\",\"15:static/chunks/15-91b52fecfdd8e21a.js\",\"780:static/chunks/780-35f43a00462f78e8.js\",\"419:static/chunks/419-c9aec889e32d9e7b.js\",\"131:static/chunks/131-8efcfd03f067c029.js\",\"185:"])
+        </script>
+        <script>
+            self.__next_f.push([1, "static/chunks/app/layout-3ab4cf37f3ac757c.js\"],\"name\":\"\",\"async\":false}\n17:I{\"id\":889,\"chunks\":[\"689:static/chunks/b536a0f1-51636bd4ac051d8f.js\",\"450:static/chunks/450-96e2a31dde902aa5.js\",\"567:static/chunks/567-6466d5cc81546a43.js\",\"780:static/chunks/780-35f43a00462f78e8.js\",\"596:static/chunks/596-40a806be0d0d2bb3.js\",\"131:static/chunks/131-8efcfd03f067c029.js\",\"931:static/chunks/app/page-4c279de0997d388f.js\"],\"name\":\"\",\"async\":false}\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "c:[\"$\",\"$L14\",null,{\"menu\":[{\"_uid\":\"2a11f63d-cf09-4633-b541-919ff2999b50\",\"link\":{\"id\":\"4acf8d02-a406-47c4-a578-e352a7ab1594\",\"url\":\"\",\"linktype\":\"story\",\"fieldtype\":\"multilink\",\"cached_url\":\"home\"},\"image\":{\"id\":202356,\"alt\":\"\",\"name\":\"\",\"focus\":\"\",\"title\":\"\",\"source\":\"\",\"filename\":\"https://a-us.storyblok.com/f/1014779/4800x3200/c9d041d138/placeholder-large.jpeg\",\"copyright\":\"\",\"fieldtype\":\"asset\",\"meta_data\":{},\"is_external_url\":false},\"label\":\"Home\",\"theme\":\"orange\",\"component\":\"settings_menu_item\"},{\"_uid\":\"9bf2b490-5c6d-498e-a80f-3f24fbe8ad32\",\"link\":{\"id\":\"9f9350df-69b3-41d2-995f-717e130e27f6\",\"url\":\"\",\"linktype\":\"story\",\"fieldtype\":\"multilink\",\"cached_url\":\"work/\"},\"image\":{\"id\":202645,\"alt\":\"\",\"name\":\"\",\"focus\":\"\",\"title\":\"\",\"source\":\"\",\"filename\":\"https://a-us.storyblok.com/f/1014779/1200x800/8a3c247070/placeholder-rollover.jpg\",\"copyright\":\"\",\"fieldtype\":\"asset\",\"meta_data\":{},\"is_external_url\":false},\"label\":\"Work\",\"theme\":\"purple\",\"component\":\"settings_menu_item\"},{\"_uid\":\"6a7fb339-05a3-41df-b598-71c7257510d9\",\"link\":{\"id\":\"46def034-c621-40d4-860d-59206eacd29a\",\"url\":\"\",\"linktype\":\"story\",\"fieldtype\":\"multilink\",\"cached_url\":\"about\"},\"image\":{\"id\":202356,\"alt\":\"\",\"name\":\"\",\"focus\":\"\",\"title\":\"\",\"source\":\"\",\"filename\":\"https://a-us.storyblok.com/f/1014779/4800x3200/c9d041d138/placeholder-large.jpeg\",\"copyright\":\"\",\"fieldtype\":\"asset\",\"meta_data\":{},\"is_external_url\":false},\"label\":\"About\",\"theme\":\"mint\",\"component\":\"settings_menu_item\"},{\"_uid\":\"25a9aeec-2108-4b38-9399-b020d6479aad\",\"link\":{\"id\":\"515e9d65-f674-45cd-8dd1-fa717f719594\",\"url\":\"\",\"linktype\":\"story\",\"fieldtype\":\"multilink\",\"cached_url\":\"ventures\"},\"image\":{\"id\":202655,\"alt\":\"\",\"name\":\"\",\"focus\":\"\",\"title\":\"\",\"source\":\"\",\"filename\":\"https://a-us.storyblok.com/f/1014779/1200x800/7d5186d3c4/placeholder-rollover-2.jpeg\",\"copyright\":\"\",\"fieldtype\":\"asset\",\"meta_data\":{},\"is_external_url\":false},\"label\":\"Ventures\",\"theme\":\"white\",\"component\":\"settings_menu_item\"},{\"_uid\":\"b26f9b89-a016-43b3-90c0-4c41aefd896a\",\"link\":{\"id\":\"dae0991f-b65f-4a90-89d1-0ce5aa81e5af\",\"url\":\"\",\"linktype\":\"story\",\"fieldtype\":\"multilink\",\"cached_url\":\"careers/\"},\"image\":{\"id\":202645,\"alt\":\"\",\"name\":\"\",\"focus\":\"\",\"title\":\"\",\"source\":\"\",\"filename\":\"https://a-us.storyblok.com/f/1014779/1200x800/8a3c247070/placeholder-rollover.jpg\",\"copyright\":\"\",\"fieldtype\":\"asset\",\"meta_data\":{},\"is_external_url\":false},\"label\":\"Careers\",\"theme\":\"black\",\"component\":\"settings_menu_item\"},{\"_uid\":\"07bb18b7-d3db-47e8-820a-36ecfcec4057\",\"link\":{\"id\":\"7020739a-da20-40d1-b193-ec5e96bc6873\",\"url\":\"\",\"linktype\":\"story\",\"fieldtype\":\"multilink\",\"cached_url\":\"contact\"},\"image\":{\"id\":202655,\"alt\":\"\",\"name\":\"\",\"focus\":\"\",\"title\":\"\",\"source\":\"\",\"filename\":\"https://a-us.storyblok.com/f/1014779/1200x800/7d5186d3c4/placeholder-rollover-2.jpeg\",\"copyright\":\"\",\"fieldtype\":\"asset\",\"meta_data\":{},\"is_external_url\":false},\"label\":\"Contact\",\"theme\":\"yellow\",\"component\":\"settings_menu_item\"}],\"contact\":{\"heading\":\"Request a proposal\",\"items\":[{\"title\":\"\",\"link\":{\"id\":\"\",\"url\":\"\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"\"}},{\"title\":\"sandeep@bluepatterns.co.in\",\"link\":{\"id\":\"\",\"url\":\"sandeep@bluepatterns.co.in\",\"email\":\"sandeep@bluepatterns.co.in\",\"linktype\":\"email\",\"fieldtype\":\"multilink\",\"cached_url\":\"sandeep@bluepatterns.co.in\"}}]},\"social\":{\"heading\":\"Follow us\",\"items\":[{\"title\":\"Instagram\",\"link\":{\"id\":\"\",\"url\":\"https://www.instagram.com/bluepatternsai/\",\"target\":\"_blank\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://www.instagram.com/bluepatternsai/\"}},{\"title\":\"LinkedIn\",\"link\":{\"id\":\"\",\"url\":\"https://linkedin.com/company/bluepatterns-ai\",\"target\":\"_blank\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://linkedin.com/company/bluepatterns-ai\"}},{\"title\":\"X\",\"link\":{\"id\":\"\",\"url\":\"https://twitter.com/bluepatternsai\",\"target\":\"_blank\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://twitter.com/bluepatternsai\"}}]},\"careers\":{\"heading\":\"Join the team\",\"items\":[{\"title\":\"careers@bluepatterns.co.in\",\"link\":{\"id\":\"\",\"url\":\"careers@bluepatterns.co.in\",\"email\":\"careers@bluepatterns.co.in\",\"target\":\"_self\",\"linktype\":\"email\",\"fieldtype\":\"multilink\",\"cached_url\":\"careers@bluepatterns.co.in\"}}]},\"address\":{\"heading\":\"Find us\",\"items\":[{\"title\":\"Bengaluru, Karnataka, India\",\"link\":{\"id\":\"\",\"url\":\"https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9882597,77.4571623,70306m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!8m2!3d12.9628957!4d77.57754!16zL20vMDljMTc?entry=ttu&g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9882597,77.4571623,70306m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!8m2!3d12.9628957!4d77.57754!16zL20vMDljMTc?entry=ttu&g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D\"}}]}}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "10:[\"$\",\"$L15\",null,{\"greetings\":\"Error, 404, Fubar, Hot mess, Dog's dinner, Fugazi, Fail whale, Goat rodeo, Boondoggled, Kaput, Charlie Foxtrot, Pear-shaped,  🤦, Balls up, Snafu, Snarled, Goneburgers, Packed a sad, Chucked a fruity, Faaaaaark, ☠️, …\",\"content\":\"Dear user, it's all gone wrong. But don't fret. Check the URL, shake the tension from your shoulders and clear your mind. Happiness awaits 🌈.\",\"contact\":{\"heading\":\"Request a proposal\",\"items\":[{\"title\":\"\",\"link\":{\"id\":\"\",\"url\":\"\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"\"}},{\"title\":\"sandeep@bluepatterns.co.in\",\"link\":{\"id\":\"\",\"url\":\"sandeep@bluepatterns.co.in\",\"email\":\"sandeep@bluepatterns.co.in\",\"linktype\":\"email\",\"fieldtype\":\"multilink\",\"cached_url\":\"sandeep@bluepatterns.co.in\"}}]},\"social\":{\"heading\":\"Follow us\",\"items\":[{\"title\":\"Instagram\",\"link\":{\"id\":\"\",\"url\":\"https://www.instagram.com/bluepatternsai/\",\"target\":\"_blank\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://www.instagram.com/bluepatternsai/\"}},{\"title\":\"LinkedIn\",\"link\":{\"id\":\"\",\"url\":\"https://linkedin.com/company/bluepatterns-ai\",\"target\":\"_blank\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://linkedin.com/company/bluepatterns-ai\"}},{\"title\":\"X\",\"link\":{\"id\":\"\",\"url\":\"https://twitter.com/bluepatternsai\",\"target\":\"_blank\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://twitter.com/bluepatternsai\"}}]},\"careers\":{\"heading\":\"Join the team\",\"items\":[{\"title\":\"careers@bluepatterns.co.in\",\"link\":{\"id\":\"\",\"url\":\"careers@bluepatterns.co.in\",\"email\":\"careers@bluepatterns.co.in\",\"target\":\"_self\",\"linktype\":\"email\",\"fieldtype\":\"multilink\",\"cached_url\":\"careers@bluepatterns.co.in\"}}]}}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "13:[\"$\",\"$L16\",null,{\"address\":{\"heading\":\"Find us\",\"items\":[{\"title\":\"Bengaluru, Karnataka, India\",\"link\":{\"id\":\"\",\"url\":\"https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9882597,77.4571623,70306m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!8m2!3d12.9628957!4d77.57754!16zL20vMDljMTc?entry=ttu&g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9882597,77.4571623,70306m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!8m2!3d12.9628957!4d77.57754!16zL20vMDljMTc?entry=ttu&g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D\"}}]},\"contact\":{\"heading\":\"Request a proposal\",\"items\":[{\"title\":\"\",\"link\":{\"id\":\"\",\"url\":\"\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"\"}},{\"title\":\"sandeep@bluepatterns.co.in\",\"link\":{\"id\":\"\",\"url\":\"sandeep@bluepatterns.co.in\",\"email\":\"sandeep@bluepatterns.co.in\",\"linktype\":\"email\",\"fieldtype\":\"multilink\",\"cached_url\":\"sandeep@bluepatterns.co.in\"}}]},\"social\":{\"heading\":\"Follow us\",\"items\":[{\"title\":\"Instagram\",\"link\":{\"id\":\"\",\"url\":\"https://www.instagram.com/bluepatternsai/\",\"target\":\"_blank\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://www.instagram.com/bluepatternsai/\"}},{\"title\":\"LinkedIn\",\"link\":{\"id\":\"\",\"url\":\"https://linkedin.com/company/bluepatterns-ai\",\"target\":\"_blank\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://linkedin.com/company/bluepatterns-ai\"}},{\"title\":\"X\",\"link\":{\"id\":\"\",\"url\":\"https://twitter.com/bluepatternsai\",\"target\":\"_blank\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://twitter.com/bluepatternsai\"}}]},\"careers\":{\"heading\":\"Join the team\",\"items\":[{\"title\":\"careers@bluepatterns.co.in\",\"link\":{\"id\":\"\",\"url\":\"careers@bluepatterns.co.in\",\"email\":\"careers@bluepatterns.co.in\",\"target\":\"_self\",\"linktype\":\"email\",\"fieldtype\":\"multilink\",\"cached_url\":\"careers@bluepatterns.co.in\"}}]},\"signup\":{\"settings_signup_heading\":{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"text\":\"Subscribe to\",\"type\":\"text\"},{\"type\":\"hard_break\"},{\"text\":\"our newsletter\",\"type\":\"text\"}]}]},\"settings_signup_label\":\"Your Email\",\"settings_signup_success\":\"Thanks! You are now subscribed to our newsletter.\"}}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "12:[[\"$\",\"script\",\"jsonldhome\",{\"type\":\"application/ld+json\",\"dangerouslySetInnerHTML\":{\"__html\":\"{\\n\\t\\t\\t\\t\\t\\t\\t\\\"@context\\\": \\\"https://schema.org\\\",\\n\\t\\t\\t\\t\\t\\t\\t\\\"@type\\\": \\\"Organization\\\",\\n\\t\\t\\t\\t\\t\\t\\t\\\"name\\\": \\\"BluePatterns AI\\\",\\n\\t\\t\\t\\t\\t\\t\\t\\\"url\\\": \\\"https://bluepatterns.ai/\\\",\\n\\t\\t\\t\\t\\t\\t\\t\\\"logo\\\": \\\"https://bluepatterns.ai/seo_logo.png\\\",\\n\\t\\t\\t\\t\\t\\t\\t\\\"sameAs\\\": [\\n\\t\\t\\t\\t\\t\\t\\t\\\"https://www.instagram.com/bluepatternsai/\\\",\\n\\t\\t\\t\\t\\t\\t\\t\\\"https://linkedin.com/company/bluepatterns-ai\\\",\\n\\t\\t\\t\\t\\t\\t\\t\\\"https://twitter.com/bluepatternsai\\\"\\n\\t\\t\\t\\t\\t\\t\\t]\\n\\t\\t\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t  \"}}],[\"$\",\"$L17\",null,{\"story\":{\"name\":\"Home\",\"created_at\":\"2023-07-26T20:54:25.637Z\",\"published_at\":\"2023-11-01T01:10:18.759Z\",\"updated_at\":\"2023-11-09T01:53:49.435Z\",\"id\":192641,\"uuid\":\"4acf8d02-a406-47c4-a578-e352a7ab1594\",\"content\":{\"cta\":{\"id\":\"9f9350df-69b3-41d2-995f-717e130e27f6\",\"url\":\"\",\"linktype\":\"story\",\"fieldtype\":\"multilink\",\"cached_url\":\"work/\"},\"seo\":{\"_uid\":\"d6c254f5-b540-4db4-b9f0-1d05bc2c6cf8\",\"title\":\"Digital Product \u0026 Brand Experience Agency\",\"plugin\":\"meta-fields\",\"description\":\"BluePatterns AI is a creative digital agency in New Zealand - working for the world. We blend storytelling with technology to craft beautiful brands, websites, experiences and products. \"},\"_uid\":\"cb890612-5513-424e-998b-3214a9c42494\",\"cta_text\":\"Explore our work\",\"component\":\"home\",\"hero_messages_bloks\":[{\"cta\":{\"id\":\"\",\"url\":\"\",\"linktype\":\"story\",\"fieldtype\":\"multilink\",\"cached_url\":\"\"},\"_uid\":\"69769e85-0346-41d4-9dfc-280737cbed54\",\"heading\":{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"text\":\"Creative innovation\u2028\",\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"\"}}]},{\"type\":\"hard_break\"},{\"text\":\"for a \",\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null}}]},{\"text\":\"regenerative\",\"type\":\"text\",\"marks\":[{\"type\":\"italic\"},{\"type\":\"textStyle\",\"attrs\":{\"color\":null}}]},{\"text\":\" future\",\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null}}]}]}]},\"cta_text\":\"\",\"component\":\"homepage_hero_copy\"}]},\"slug\":\"home\",\"full_slug\":\"home\",\"sort_by_date\":null,\"position\":40,\"tag_list\":[],\"is_startpage\":false,\"parent_id\":null,\"meta_data\":null,\"group_id\":\"6bae3dca-ac77-449d-abbc-0e977eb97349\",\"first_published_at\":\"2023-09-05T04:54:50.900Z\",\"release_id\":null,\"lang\":\"default\",\"path\":\"/\",\"alternates\":[],\"default_full_slug\":null,\"translated_slugs\":null}}]]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "5:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"Digital Product \u0026 Brand Experience Agency - BluePatterns AI\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"BluePatterns AI is a creative digital agency in New Zealand - working for the world. We blend storytelling with technology to craft beautiful brands, websites, experiences and products. \"}],[\"$\",\"meta\",\"3\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"4\",{\"name\":\"robots\",\"content\":\"index, follow\"}],[\"$\",\"link\",\"5\",{\"rel\":\"canonical\",\"href\":\"https://bluepatterns.ai/\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:title\",\"content\":\"Digital Product \u0026 Brand Experience Agency - BluePatterns AI\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:description\",\"content\":\"BluePatterns AI is a creative digital agency in New Zealand - working for the world. We blend storytelling with technology to craft beautiful brands, websites, experiences and products. \"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:image\",\"content\":\"https://a-us.storyblok.com/f/1014779/1200x630/0e40ae66b8/bluepatterns.png/m/1200x627\"}],[\"$\",\"meta\",\"9\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:title\",\"content\":\"Digital Product \u0026 Brand Experience Agency - BluePatterns AI\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:description\",\"content\":\"BluePatterns AI is a creative digital agency in New Zealand - working for the world. We blend storytelling with technology to craft beautiful brands, websites, experiences and products. \"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:image\",\"content\":\"https://a-us.storyblok.com/f/1014779/1200x630/0e40ae66b8/bluepatterns.png/m/1200x627\"}],[\"$\",\"link\",\"13\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\"}]]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "11:null\n"])
+        </script>
+        
+        
+            <button id="gladeye-audio-btn" class="AudioControl_audioButton AudioControl_audioButton__Gj5AZ is-paused pointer-events-auto" aria-label="Play audio" title="Play audio"><svg class="audio-equalizer-svg" width="22" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg"><line class="audio-bar" x1="3.67" y1="15" x2="3.67" y2="0" stroke="#FCF9F9" stroke-width="2" stroke-linecap="round"></line><line class="audio-bar" x1="7.33" y1="15" x2="7.33" y2="0" stroke="#FCF9F9" stroke-width="2" stroke-linecap="round"></line><line class="audio-bar" x1="11" y1="15" x2="11" y2="0" stroke="#FCF9F9" stroke-width="2" stroke-linecap="round"></line><line class="audio-bar" x1="14.67" y1="15" x2="14.67" y2="0" stroke="#FCF9F9" stroke-width="2" stroke-linecap="round"></line><line class="audio-bar" x1="18.33" y1="15" x2="18.33" y2="0" stroke="#FCF9F9" stroke-width="2" stroke-linecap="round"></line></svg></button>
+        <script>
+            (function() {
+                var audio = new Audio('/valley/audio/ge-ambient.mp3');
+                window.__ambientAudio = audio;
+                audio.loop = true;
+                audio.preload = 'auto';
+
+                // Explicit restart once the music ends (loop requirement)
+                audio.addEventListener('ended', function() {
+                    audio.currentTime = 0;
+                    audio.play().catch(function(err) {
+                        console.warn('Auto-restart error:', err);
+                    });
+                });
+
+                var btn = document.getElementById('gladeye-audio-btn');
+                var userManuallyPaused = false;
+
+                function updateState(playing) {
+                    if (!btn) return;
+                    if (playing) {
+                        btn.classList.remove('is-paused');
+                        btn.classList.add('is-playing');
+                        btn.setAttribute('aria-label', 'Mute audio');
+                        btn.setAttribute('title', 'Mute audio');
+                    } else {
+                        btn.classList.remove('is-playing');
+                        btn.classList.add('is-paused');
+                        btn.setAttribute('aria-label', 'Unmute audio');
+                        btn.setAttribute('title', 'Unmute audio');
+                    }
+                }
+
+                function toggleAudio() {
+                    if (audio.paused) {
+                        userManuallyPaused = false;
+                        audio.play().then(function() {
+                            updateState(true);
+                        }).catch(function(err) {
+                            console.warn('Play error:', err);
+                        });
+                    } else {
+                        userManuallyPaused = true;
+                        audio.pause();
+                        updateState(false);
+                    }
+                }
+
+                if (btn) {
+                    btn.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        toggleAudio();
+                    });
+                }
+
+                // Autoplay on first user interaction
+                function onFirstGesture() {
+                    if (audio.paused && !userManuallyPaused) {
+                        audio.play().then(function() {
+                            updateState(true);
+                        }).catch(function() {});
+                    }
+                    window.removeEventListener('click', onFirstGesture);
+                    window.removeEventListener('keydown', onFirstGesture);
+                    window.removeEventListener('touchstart', onFirstGesture);
+                }
+
+                window.addEventListener('click', onFirstGesture, { once: true });
+                window.addEventListener('keydown', onFirstGesture, { once: true });
+                window.addEventListener('touchstart', onFirstGesture, { once: true });
+
+                // Try playing immediately
+                audio.play().then(function() {
+                    updateState(true);
+                }).catch(function() {
+                    updateState(false);
+                });
+
+                // Keep button mounted if dynamic DOM replacement happens
+                var observer = new MutationObserver(function() {
+                    if (!document.getElementById('gladeye-audio-btn')) {
+                        document.body.appendChild(btn);
+                    }
+                });
+                observer.observe(document.body, { childList: true, subtree: true });
+            })();
+        </script>
+        
+        
+    </body>
+</html>
